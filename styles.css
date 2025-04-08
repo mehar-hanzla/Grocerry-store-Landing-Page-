@@ -1,0 +1,16 @@
+/* Hero Section Styling */
+.hero-section {
+  height: 100vh;
+  background-image: url('c:/Users/Administrator/Downloads/franki-chamaki-ivfp_yxZuYQ-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* Product Card Hover Effect */
+.product-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.product-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
